@@ -1,0 +1,85 @@
+/* your custom css goes here */
+
+/* To adjust overall page layout*/
+.main_container {
+    height: 100%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+/* To fix Nav header bar to top*/
+.nav-header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+}
+/* To fix Nav footer bar to botttom*/
+.nav-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+/* To postion the Logo on Nav bar*/
+.Logo {
+    height: 60px;
+    padding-left: 10px;
+}
+
+.home_layout {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home_bg_img {
+    width: 100%;
+    height: inherit;
+}
+
+.home-content {
+    max-width: 1000px;
+    padding: 16px;
+    margin: 10px auto;
+}
+
+.homepage_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile_photo {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.project_imgae {
+    height: inherit;
+    width: 30%;
+}
+
+.content {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.content_img {
+    height: inherit;
+    margin: 0 auto;
+    display: block;
+}
+
+.project-content {
+    float: left;
+    width: 70%;
+}
+
+.services {
+    display: block;
+    width: max-content;
+    font-size: larger;
+    font-weight: 600;
+    margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "express_portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.18.0",
+    "npm": "^6.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^4.6.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.1",
+    "mongoose": "^6.0.11",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
+  },
+  "description": "demo app for portfolio website",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
